@@ -1,7 +1,7 @@
-import './Login.css'
+import './Signup.css'
 import {Link} from "react-router-dom"
 
-function Login () {
+function Signup () {
    return (
     <>
       <div className="searchbox">
@@ -13,5 +13,5 @@ function Login () {
   );
 }
 
-export default Login
+export default Signup
 

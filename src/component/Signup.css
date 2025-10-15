@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 50px;
+    font-family: 'Outfit';
+}
+
+.joinpod{
+    margin-left: 25px;
+    width: 1040px;
+    display: flex;
+}
+
+.joinpodd{
+    width: 1100px;
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.podparagraph{
+    position: absolute;
+    color: white;
+    font-size: 40px;    
+    padding: 20px 300px;
+}
