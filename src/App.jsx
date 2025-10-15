@@ -52,7 +52,7 @@ function App() {
             <Route path="/nonFrictionalpage" element={<NonFrictionalpage />} />
             <Route path="/childrenpage" element={<Childrenpage />} />
             <Route path="/MainBlog" element={<MainBlog />} />
-            <Route path="/Mainsignup" element={<Mainsignup />} />
+            <Route path="/mainsignup" element={<Mainsignup />} />
           </Routes>
         </DeviceCheck>
       </BrowserRouter>
