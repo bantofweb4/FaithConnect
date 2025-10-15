@@ -13,7 +13,7 @@ import Steppingpage from './pages/Steppingpage';
 import Christainpage from './pages/Christainpage';
 import Projectpage from './pages/Projectpage';
 import Kennbook from './pages/Kennbook';
-import Pilgrim from './pages/pilgrim';
+import Pilgrim from './pages/Pilgrim';
 import Adeboyepage from './pages/Adeboyepage';
 import Jamespage from './pages/Jamespage';
 import Faithpage from './pages/Faithpage';
