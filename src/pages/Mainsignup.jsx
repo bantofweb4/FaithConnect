@@ -1,14 +1,12 @@
 import React from "react";
 import Signup from "../component/Signup";
 
-
-
-function Signuppage() {
+function Mainsignup() {
     return(
-        <>
+        <div className="">
             <Signup />
-        </>
+        </div>
     ); 
 }
 
-export default Signuppage
+export default Mainsignup

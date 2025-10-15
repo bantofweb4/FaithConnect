@@ -22,7 +22,7 @@ import NonFrictional from "./component/NonFrictional";
 import NonFrictionalpage from "./pages/NonFrictionalpage";
 import Childrenpage from "./pages/Childrenpage";
 import MainBlog from "./pages/MainBlog";
-import Signuppage from "./pages/Signuppage";
+import Mainsignup from "./pages/Mainsignup";
 import DeviceCheck from "./pages/DeviceCheck";
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
             <Route path="/nonFrictionalpage" element={<NonFrictionalpage />} />
             <Route path="/childrenpage" element={<Childrenpage />} />
             <Route path="/MainBlog" element={<MainBlog />} />
-            <Route path="/Signuppage" element={<Signuppage />} />
+            <Route path="/Mainsignup" element={<Mainsignup />} />
           </Routes>
         </DeviceCheck>
       </BrowserRouter>

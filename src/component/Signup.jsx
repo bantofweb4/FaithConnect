@@ -1,17 +1,13 @@
-import './Signup.css'
-import {Link} from "react-router-dom"
+import './Signup.css';
 
-function Signup () {
-   return (
-    <>
-      <div className="searchbox">
-        <div>
-          <input type="text" placeholder="Search" className="searchh"></input>
-        </div>
-      </div>
-    </>
-  );
+function Signup( ) {
+    return (
+        <>
+            <div className="Searchbarr">
+                <input type="text" placeholder="Search" className="Searchbarrr"></input>
+            </div>
+        </>
+    );
 }
 
 export default Signup
-
