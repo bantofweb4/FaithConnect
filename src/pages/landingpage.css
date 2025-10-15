@@ -1,0 +1,11 @@
+#background{
+    background-image: url('/img/dots.png'), url('/img/hands.png');
+    height: 100vh;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+

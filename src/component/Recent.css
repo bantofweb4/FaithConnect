@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 50px;
+    font-family: 'Outfit';
+}
+
+.recentimg{
+    width: 90px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.recentimgg{
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.wholerecent{
+    width: 660px;
+    margin-left: 25px;
+}
+
+.played{
+    display: flex;
+    gap: 22px;
+    margin-top: -10px;
+}
+
+.recentt{
+    width: 50px;
+    font-size: 12px;
+}
+
+.recently{
+    margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.popimg{
+    width: 60px;
+}
+
+.pop{
+    display: flex;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 7px; 
+}
+
+.poptext{
+    margin: 3px 0 0 3px;
+}
+
+.mostpop{
+    margin-left: 20px;
+}

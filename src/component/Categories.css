@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 5px;
+    font-family: 'Outfit';
+}
+
+.h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Categories{
+    width: 340px;
+    height: 165px;
+    padding: 3px 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+}
+
+.category1{
+    display: flex;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    padding: 8px;
+}
+
+.category2{
+    background-color: #E8C270;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    padding: 8px;
+}
+
+.images2{
+    width: 72px;
+    height: 60px;
+}
+
+.wholecategories{
+    display: flex;
+    width: 90%;
+    gap: 25px;
+    margin: 10px 0px 10px 25px;
+    justify-content: center; 
+    align-items: center;   
+}
+.AuthorEA{
+    width:30px;
+    margin-right: 5px;
+}
+
+.mincategory{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+
+h5{
+    font-size: 10px;
+}
+
+.minicategory{
+    margin-top: -20px;
+}
+
+.category3{
+    display: flex;
+    margin: 5px 0px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+}
+
+.category4{
+    display: flex;
+    margin: 5px 0px;
+    background-color: #E8C270;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+}
+
+.popparagrph{
+    font-size: 12px;
+    width: 250px;
+    margin-left: 5px;
+}
+
+.josephimg{
+    width: 80px;
+    height: 133px;
+    
+}
+
+.category5{
+    padding: 5px 0px;
+    display: flex;
+}
+
+.spam{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.josephpara{
+    font-size: 10px;
+}
+
+.minicategory2{
+    width: 245px;
+}

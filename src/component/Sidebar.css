@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 50px;
+    font-family: 'Outfit';
+    background-color: #F2F2F2;
+}
+
+.sidebar{
+    background-color: white;
+    width: 290px;
+    height: 100vh;
+    padding: 20px 20px 20px 0;
+}
+
+.side{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    line-height: 2.5rem;
+}
+
+.dashlogo{
+    width: 100px;
+    height: 60px;
+    margin: 20px; 
+}
+
+.dashmenu{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.dashboardmenu{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lidash{
+    padding-left: 1.25rem; 
+    font-size: 15px;      
+    background-color: #E9A923;        
+    border-top-right-radius: 1.5rem;  
+    border-bottom-right-radius: 1.5rem;
+    padding-right: 60px;
+}
+
+.lidashh{
+    padding-left: 1.25rem; 
+    font-size: 15px;              
+    border-top-right-radius: 1.5rem;  
+    border-bottom-right-radius: 1.5rem;
+    padding-right: 60px;
+    margin-top: 25px;
+}
+
+.adashh{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+} 
+
+#svg{
+    margin-right: 5px;
+}
+
+.adash{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: white;
+} 
+
+.abouticon{
+    padding-left: 1.25rem; 
+    font-size: 15px;              
+    border-top-right-radius: 1.5rem;  
+    border-bottom-right-radius: 1.5rem;
+    padding-right: 60px;
+    margin-top: 150px;
+}

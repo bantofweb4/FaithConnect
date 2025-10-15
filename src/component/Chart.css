@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.charts{
+    background-color: white;                  
+    display: flex;                                                         
+    margin-left: 1.25rem;                        
+    border-radius: 0.5rem;                       
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);   
+    width: 330px;
+    height: 522px;                                
+}
+
+.totalusers{
+    display: flex;            
+    padding-top: 30px;      
+    padding-bottom: 10px;   
+    padding-left: 20px;
+    padding-right: 20px;         
+    margin-right: 10px;
+    align-items: center; 
+    justify-content: center; 
+    width: 300px; 
+}
+
+.num22{
+    border-radius: 9999px;                     
+    background-color: #E9A923;                
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+    border: 1px solid white;                   
+    width: 60px;                             
+    height: 60px; 
+    padding: 15px 20px;                           
+    color: white;                             
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    margin-right: 60px;
+}
+
+.usernum{
+    margin-top: 0.6rem;
+}
+
+.usernum2{
+    margin-bottom: 7px;
+}
+
+.cross{
+    width: 12px;           
+    height: 12px;          
+    margin-left: 7px;     
+    margin-top: 6px;      
+}
+
+.usertext{
+    font-size: 14px;    
+    width: 50px; 
+    text-align: center;
+    margin-left: 5px;
+}
+
+.usertext2{
+    font-size: 14px;    
+    width: 50px; 
+    text-align: center;
+    margin-left: -5px;
+}
+
+.charttext{
+    margin-bottom: 30px;
+}
+
+.bars{
+    margin-top: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px
+}
+
+.wholebar{
+    display: flex;
+    margin: 0 20px;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 50px;
+    font-family: 'Outfit';
+}
+
+.book-slide{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #D9D9D9;
+    padding-left: 30px;
+    padding-right: 30px;
+}

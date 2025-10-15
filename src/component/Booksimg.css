@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 5px;
+    font-family: 'Outfit';
+}
+
+.booksimg{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+.booksrec{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.booksrec2{
+    width: 900px;
+    height: 120px;
+    position: absolute;
+    margin-left: 400px;
+}
+
+.booksrec3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20px;
+    width: 450px;
+    line-height: 40px;
+    position: relative;
+}
+
+.booksicon{
+    margin-left: 320px;
+    width:  250px;
+    margin-top: -67px;
+    position: relative;
+}

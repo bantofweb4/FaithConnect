@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.podcasterimg{
+    width: 60px;
+    
+}
+
+.toppodcaster{
+    width: 348px;
+    height: 415px;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    padding: 10px 25px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.podcasters{
+    margin-top: 4px;
+    display: flex;
+}
+
+.podcastimage{
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.follow{
+    font-size: 12px;
+}
+
+.podName{
+    padding: 5px 0 5px 10px;
+}
+
+.podName2{
+    display: flex;
+    gap: 100px;
+}

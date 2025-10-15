@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toptext{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.topuser{
+    width: 300px;
+    height: 287px;
+    display: flex;
+    margin-left: 30px;
+    background-color: white;
+    padding: 5px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topinfo{
+    margin: 4px 10px;
+    width: 280px;
+    display: flex;
+    margin-right: 20px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+.topimg{
+    width: 40px;
+    object-fit: contain;
+}
+
+.topinfo2{
+    margin-left: 10px;
+}
+
+.streak{
+    width: 0px;
+}
+
+.streakinfo{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 135px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.inspiration{
+    width: 340px;
+    height: 137px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}

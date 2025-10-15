@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 50px;
+    font-family: 'Outfit';
+}
+
+.book-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+        
+.book-grid a {
+    text-decoration: none;
+    color: inherit;
+}
+        
+.book-card {
+    width: 18rem;
+    text-align: center;
+}
+        
+.book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+        
+.book-card h3 {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+        
+.recommend-section {
+    margin: 3rem 0;
+}
+        
+.recommend-section h2 {
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    color: #CDCBCB;
+}

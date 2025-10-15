@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-family: 'Outfit', sans-serif;
+    background: #EEEEEE;
+}
+       
+h1 {
+    margin-left: 5rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+        
+.book-section {
+            display: flex;
+            align-items: center;
+            margin-top: 3rem;
+            margin-left: 5rem;
+        }
+        .book-section img {
+            width: 10rem;
+            height: auto;
+            border-radius: 10px;
+        }
+        .book-section h2 {
+            margin-left: 2.5rem;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        .book-section h2 b {
+            font-weight: 700;
+        }
+        .book-section.large h2 {
+            font-size: 2.5rem;
+        }
+        @media (max-width: 900px) {
+            body {
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            h1 {
+                margin-left: 1rem;
+                font-size: 2rem;
+            }
+            .book-section {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .book-section img {
+                width: 100%;
+                max-width: 12rem;
+                margin-bottom: 1rem;
+            }
+            .book-section h2 {
+                margin-left: 0;
+                font-size: 1.5rem;
+            }
+            .book-section.large h2 {
+                font-size: 2rem;
+            }
+        }

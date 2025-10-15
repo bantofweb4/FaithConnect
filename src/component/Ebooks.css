@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 50px;
+    font-family: 'Outfit';
+}
+
+.ebooks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 60px;
+}
+
+.ebooksh1{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.ebooksh2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.ebooksh3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.kenimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
