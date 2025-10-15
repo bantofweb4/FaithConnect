@@ -1,4 +1,4 @@
-import './joinpod.css'
+import './Joinpod.css'
 
 function joinpod( ) {
     return (

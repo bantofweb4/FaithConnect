@@ -1,4 +1,4 @@
-import './frictionalbook.css'
+import './Frictionalbook.css'
 
 
 function frictionalbook( ) {
