@@ -5,7 +5,7 @@ import BooksHeader from '../component/BooksHeader';
 import Booksimg from '../component/Booksimg';
 import Searchbooks from '../component/Searchbooks';
 import Frictionalbook from '../component/Frictionalbook';
-import Categories from '../component/categories';
+import Categories from '../component/Categories';
 
 function BooksDashboard() {
   return (
