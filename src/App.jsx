@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/Landingpage";
 import Podcast from './pages/Podcast';
 import Bookspage from './pages/Bookspage';
-import Aboutpage from './pages/AboutPage';
+import Aboutpage from './pages/Aboutpage';
 import Dashboard from './pages/Dashboard';
 import PodcastDashboard from './pages/PodcastDashboard';
 import BooksDashboard from './pages/BooksDashboard';
