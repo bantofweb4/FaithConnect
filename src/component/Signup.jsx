@@ -10,13 +10,13 @@ function Signup() {
                         <div className="mainlogo"><img src="img/logo.png" alt="Faith" className="logo" /></div>
                         <h1 className="h1">Create an account</h1>
 
-                        <label>Full Name</label><br />
+                        <label>Full Name</label>
                         <input type="text" className="input-field" required /><br />
 
-                        <label>Email</label><br />
+                        <label>Email</label>
                         <input type="email" className="input-field" required /><br />
 
-                        <label>Password</label><br />
+                        <label>Password</label>
                         <input type="password" className="input-field" required /><br />
 
                         <button type="submit" className="submit-btn">Submit</button><br />
