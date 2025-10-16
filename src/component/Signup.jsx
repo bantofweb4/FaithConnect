@@ -19,7 +19,7 @@ function Signup() {
                         <label>Password</label>
                         <input type="password" className="input-field" required /><br />
 
-                        <button type="submit" className="submit-btn">Submit</button><br />
+                        <button type="submit" className="submit-btn"><Link to="/dashboard">Submit</Link></button><br />
 
                         <div className="maingoogle"><img src="img/google.png" alt="Sign in with Google" className="google" /></div>
 
