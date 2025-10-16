@@ -43,15 +43,12 @@ body{
 h1 {
   font-size: 23px;
   margin-bottom: 20px;
-  justify-content: center;
-  align-items: center;
 }
 
 label {
   text-align: left;
   margin-left: 10px;
   font-size: 14px;
-  margin-top: 10px;
 }
 
 .input-field {
@@ -60,7 +57,6 @@ label {
   background: rgba(217, 217, 217, 0.5);
   border-radius: 20px;
   border: none;
-  padding: 0 10px;
   margin-top: 5px;
   outline: none;
 }
