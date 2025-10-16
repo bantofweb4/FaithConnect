@@ -17,11 +17,7 @@ body{
 .signup-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  width: 800px;
+  gap: 50px;
   overflow: hidden;
   padding: 20px;
 }
@@ -100,6 +96,6 @@ label {
 }
 
 .signup-right img {
-  width: 170px;
+  width: 130px;
   max-width: 100%;
 }
