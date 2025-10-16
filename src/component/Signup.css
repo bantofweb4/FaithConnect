@@ -36,8 +36,8 @@ body{
   width: 155px;
   height: 100px;
   margin-bottom: 20px;
-  justify-content: center;
-  align-items: center;
+  padding-left: 50px; 
+  padding-right: 50px;
 }
 
 h1 {
