@@ -21,7 +21,7 @@ function Signup() {
 
                         <button type="submit" className="submit-btn">Submit</button><br />
 
-                        <img src="img/google.png" alt="Sign in with Google" className="google" />
+                        <div className="maingoogle"><img src="img/google.png" alt="Sign in with Google" className="google" /></div>
 
                         <p className="login-note">
                         Have an account? <a href="log in.html">Log in</a>
