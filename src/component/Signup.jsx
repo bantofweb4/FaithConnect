@@ -7,7 +7,7 @@ function Signup() {
             <div className="signup-container">
                 <div className="signup-left">
                     <form className="signup-form">
-                        <img src="img/logo.png" alt="Faith" className="logo" />
+                        <div className="mainlogo"><img src="img/logo.png" alt="Faith" className="logo" /></div>
                         <h1 className="h1">Create an account</h1>
 
                         <label>Full Name</label><br />
