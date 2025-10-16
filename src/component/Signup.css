@@ -20,12 +20,12 @@ body{
   gap: 50px;
   overflow: hidden;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .signup-left {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .signup-form {
