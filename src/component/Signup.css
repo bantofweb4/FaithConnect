@@ -37,7 +37,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .logo{
@@ -50,6 +50,7 @@ body{
     display: block;
     margin: 0 auto 20px auto;
     text-align: center;
+    font-size: 23px;
 }
 
 .submit-btn {
