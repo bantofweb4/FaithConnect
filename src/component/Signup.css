@@ -17,7 +17,7 @@ body{
 .signup-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  gap: 30px;
   overflow: hidden;
   padding: 20px;
   justify-content: center;
@@ -97,5 +97,4 @@ label {
 
 .signup-right img {
   width: 130px;
-  max-width: 100%;
 }
