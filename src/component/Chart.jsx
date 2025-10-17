@@ -8,8 +8,8 @@ function Chart () {
         <div className="">
           <div className="totalusers">
             <div className="">
-              <div className="">
-                <h1 className="num22">22</h1>    
+              <div className="num22">
+                <h1 className="number22">22</h1>    
               </div>
               <p className="usertext">Offline <span className="px-[3px]">Users</span> </p>    
             </div>
