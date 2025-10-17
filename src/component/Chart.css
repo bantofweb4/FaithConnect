@@ -25,8 +25,8 @@
     margin-right: 10px;
     align-items: center; 
     justify-content: center; 
-    width: 300px; 
-    gap: -20px;
+    width: 250px; 
+    gap: -60px;
 }
 
 .num22{
@@ -40,7 +40,7 @@
     color: white;                             
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-    margin-right: 60px;
+    margin-right: 40px;
     font-size: 25px;
 }
 
