@@ -26,6 +26,7 @@
     align-items: center; 
     justify-content: center; 
     width: 300px; 
+    gap: -20px;
 }
 
 .num22{
@@ -35,7 +36,7 @@
     border: 1px solid white;                   
     width: 60px;                             
     height: 60px; 
-    padding: 15px 20px;                           
+    padding: 15px 15px;                           
     color: white;                             
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
@@ -49,6 +50,7 @@
 
 .usernum2{
     margin-bottom: 7px;
+    font-size: 25px;
 }
 
 .cross{
