@@ -44,7 +44,7 @@ body{
 }
 
 .num{
-    margin-left: 40px;
+    margin-left: 60px;
     display: flex;                                    
 }
 
@@ -68,9 +68,11 @@ body{
 }
 
 .event1{
-    font-size: 16px;
+    font-size: 10px;
 }
 
 .upcoming{
     margin-right: 10px;
+    font-size: 16px;
+    margin-top: -20px;
 }

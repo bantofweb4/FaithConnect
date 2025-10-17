@@ -43,7 +43,7 @@ function Podcastbox () {
               <h1 className="num15">15</h1>
             </div>
             <div className="flex justify-end">
-              <p className="text-[10px]">Upcoming</p>
+              <p className="upcoming">Upcoming</p>
             </div>
             <div className="flex justify-end">
               <h1 className="event1">Event</h1>
