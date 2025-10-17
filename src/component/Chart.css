@@ -18,12 +18,12 @@
 
 .totalusers{
     display: flex;            
-    padding-top: 30px;      
+    padding-top: 10px;      
     padding-bottom: 10px;   
     padding-left: 20px;
     padding-right: 20px;         
     margin-right: 10px;
-    margin-left: 60px;
+    margin-left: 70px;
     align-items: center; 
     justify-content: center; 
     width: 200px; 
