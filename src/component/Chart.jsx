@@ -17,7 +17,7 @@ function Chart () {
               <div className="">
                 <h1 className="num22">22</h1>    
               </div>
-              <p className="usertext">Online <span className="px-[3px]">Users</span> </p>    
+              <p className="usertext3">Online <span className="px-[3px]">Users</span> </p>    
             </div>
             <div className="usernum">
               <div className="flex">
