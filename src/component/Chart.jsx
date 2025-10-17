@@ -7,7 +7,7 @@ function Chart () {
       <div className="charts">
         <div className="">
           <div className="totalusers">
-            <div className="">
+            <div className="numbeer2">
               <div className="">
                 <h1 className="num22">22</h1>    
               </div>
