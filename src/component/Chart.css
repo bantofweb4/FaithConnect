@@ -81,6 +81,13 @@
     margin-left: -5px;
 }
 
+.usertext3{
+    font-size: 14px;    
+    width: 50px; 
+    text-align: center;
+    margin-top: -20px;
+}
+
 .charttext{
     margin-bottom: 30px;
 }
