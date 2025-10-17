@@ -47,6 +47,11 @@ body{
     margin-left: 80px;
 }
 
+.num54{
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
+}
+
 .num15{
     display: flex;                                   
     background-color: #E9A923B2;          
