@@ -12,69 +12,55 @@ body{
     background-color: #F2F2F2;
 }
 
-.podcastbox {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 900px;
-  width: 90%;
+.podcastbox{
+    width: 680px;
+    height: 140px;
+    margin-left: 20px;
+    display: flex;
 }
 
-.whitebox, .orangebox {
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 15px;
-  flex: 1 1 250px;
-  min-width: 250px;
+.whitebox{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-right: 50px;
+    width: 190px;                  
+    height: 130px;                   
+    border-radius: 15px;            
+    background-color: white;         
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.orangebox {
-  background: #E9A923;
-  color: white;
-  text-align: center;
+.orangebox{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-right: 20px;   
+    width: 190px;                  
+    height: 130px;        
+    border-radius: 15px;    
+    color: white;          
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('/img/orangerec.png');     
+    background-position: center;
 }
 
-.top {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+.num{
+    margin-left: 80px;
 }
 
-.subtitle {
-  font-size: 10px;
-  margin-left: 5px;
+.num15{
+    display: flex;                                   
+    background-color: #E9A923B2;          
+    width: 30px;                          
+    height: 30px;                          
+    padding-top: 0.25rem;                 
+    padding-bottom: 0.25rem;
+    padding-left: 0.375rem;               
+    padding-right: 0.375rem;
+    border-radius: 9999px; 
+    justify-content: center;
 }
 
-.bottom {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.bottom h1 {
-  margin-right: 10px;
-  font-size: 18px;
-}
-
-.bar {
-  width: 3px;
-  height: 28px;
-  background: #E9A923;
-}
-
-.orangebox .num h1 {
-  font-size: 40px;
-  margin: 0;
-}
-
-.orangebox .small-text {
-  font-size: 12px;
-  margin-top: 5px;
-}
-
-.orangebox .event {
-  font-size: 22px;
-  margin-top: 3px;
+.upcoming{
+    margin-right: 10px;
+    
 }
