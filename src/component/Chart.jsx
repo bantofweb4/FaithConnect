@@ -13,7 +13,7 @@ function Chart () {
               </div>
               <p className="usertext">Offline <span className="px-[3px]">Users</span> </p>    
             </div>
-            <div className="ml-5">
+            <div className="numbeer2">
               <div className="">
                 <h1 className="num22">22</h1>    
               </div>
