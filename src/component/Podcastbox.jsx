@@ -16,7 +16,7 @@ function Podcastbox () {
           </div>
 
           <div className="flex justify-end mt-3">
-            <h1 className="mr-3 text-xl"> <b>54</b></h1>
+            <h1 className="num54"> <b>54</b></h1>
             <div className="w-[3px] h-7 bg-[#E9A923]"></div>    
           </div>
         </div>
