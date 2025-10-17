@@ -50,12 +50,13 @@
 }
 
 .usernum{
-    margin-top: 0.3rem;
+    margin-top: 0.6rem;
 }
 
 .usernum2{
     margin-bottom: 7px;
     font-size: 25px;
+    margin-top: -10px;
 }
 
 .cross{
