@@ -46,7 +46,7 @@ function Podcastbox () {
               <p className="text-[10px]">Upcoming</p>
             </div>
             <div className="flex justify-end">
-              <h1 className="text-xl">Event</h1>
+              <h1 className="event1">Event</h1>
             </div>
           </div>
         </div>
