@@ -10,8 +10,6 @@ import Chart from '../component/Chart';
 function Dashboard() {
   return (
     <>
-        
-
         <div className="flex">
             <Sidebar />
             <div className="w-[90vw]">
