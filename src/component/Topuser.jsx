@@ -60,7 +60,7 @@ function Topuser () {
                     <div className="">
                       <h1 className="weeklyh1" >Weekly Streak</h1>
                     </div>
-                    <hr className="mb-[6px]" />
+                    <hr className="hrline" />
                     <div className="" >
                       <div className="mt-[-6px]">
                         <h2 className="text-[12px]">4/4 Weeks</h2>    
