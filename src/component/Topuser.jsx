@@ -66,7 +66,7 @@ function Topuser () {
                         <h2 className="text-[12px]">4/4 Weeks</h2>    
                       </div>
                       <div className="flex gap-[4px] mt-[20px]">
-                        <div className="bg-[#E9A923] text-[white] rounded-md w-[60px] h-[70px] text-center py-10 drop-shadow-lg">
+                        <div className="datestreak">
                           <h2 className="text-[10px]">May</h2>
                           <h1 className="text-[14px]">29</h1>
                           <h2 className="text-[10px]">Thu</h2>    

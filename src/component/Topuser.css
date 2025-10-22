@@ -71,3 +71,15 @@
 .hrline{
     margin-top: -25px;
 }
+
+.datestreak{
+    background-color: #E9A923;
+    color: white;
+    border-radius: 6px;
+    width: 60px;
+    height: 70px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
