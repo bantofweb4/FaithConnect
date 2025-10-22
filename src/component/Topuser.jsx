@@ -84,12 +84,12 @@ function Topuser () {
                         <div className="datestreak2">
                           <h2 className="text-[10px]">May</h2>
                           <h1 className="h1date">29</h1>
-                          <h2 className="text-[10px]">Thu</h2>    
+                          <h2 className="daystext">Thu</h2>    
                         </div>
                         <div className="bg-[white] rounded-md w-[60px] h-[70px] text-center py-1 drop-shadow-lg">
                           <h2 className="text-[10px]">May</h2>
                           <h1 className="h1date">29</h1>
-                          <h2 className="text-[10px]">Thu</h2>    
+                          <h2 className="daystext">Thu</h2>    
                         </div>
                       </div>    
                     </div>
