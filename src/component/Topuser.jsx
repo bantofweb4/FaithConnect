@@ -58,7 +58,7 @@ function Topuser () {
               <div className="streakinfo">
                 <div className="">
                     <div className="">
-                      <h1 className="text-[14px] " >Weekly Streak</h1>
+                      <h1 className="weeklyh1" >Weekly Streak</h1>
                     </div>
                     <hr className="mb-[6px]" />
                     <div className="" >
