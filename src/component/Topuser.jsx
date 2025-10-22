@@ -68,20 +68,20 @@ function Topuser () {
                       <div className="flex gap-[4px] mt-[20px]">
                         <div className="datestreak">
                           <h2 className="text-[10px]">May</h2>
-                          <h1 className="text-[14px]">29</h1>
+                          <h1 className="h1date">29</h1>
                           <h2 className="text-[10px]">Thu</h2>    
                         </div>   
-                        <div className="bg-[#E9A923] text-[white] rounded-md w-[60px] h-[70px] text-center py-1 drop-shadow-lg">
+                        <div className="datestreak">
                           <h2 className="text-[10px]">May</h2>
                             <h1 className="text-[14px]">29</h1>
                             <h2 className="text-[10px]">Thu</h2>    
                         </div>   
-                        <div className="bg-[#E9A923] text-[white] rounded-md w-[60px] h-[70px] text-center py-1 drop-shadow-lg">
+                        <div className="datestreak">
                           <h2 className="text-[10px]">May</h2>
                           <h1 className="text-[14px]">29</h1>
                           <h2 className="text-[10px]">Thu</h2>    
                         </div>
-                        <div className="bg-[white] rounded-md w-[60px] h-[70px] text-center py-1 drop-shadow-lg">
+                        <div className="datestreak2">
                           <h2 className="text-[10px]">May</h2>
                           <h1 className="text-[14px]">29</h1>
                           <h2 className="text-[10px]">Thu</h2>    
