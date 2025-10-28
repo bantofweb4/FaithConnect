@@ -15,6 +15,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-right: 25px;
+    margin-left: 25px;
 }
 
 .connecting{
@@ -22,7 +23,7 @@ body{
     font-weight: 400;
     font-size: 70px;
     padding: 150px 0;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .header-img{
