@@ -29,9 +29,9 @@ nav{
 
 .navul{
     display: flex;
-    gap: 80px;
+    gap: 100px;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 150px;
 } 
 
 li{
