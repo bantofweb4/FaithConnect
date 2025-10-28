@@ -6,7 +6,7 @@ function Nav() {
     <>
         <nav>
             <Link to="/"><div className="Logo"><img src="img/logo.png" alt="" /></div></Link>
-            <ul className="flex gap-[40px] ">
+            <ul className="navul">
                 <li className="" ><Link to="/podcast">Podcasts</Link></li>
                 <li className="" ><Link to="/bookspage">Books</Link></li>
                 <li className="" ><Link to="/Aboutpage">About</Link></li>
