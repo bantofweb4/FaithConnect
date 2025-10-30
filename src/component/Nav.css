@@ -114,7 +114,7 @@ nav .navul li a:hover::after {
 }
 
 nav .signup-box li a:hover{
-    color: black;
+    color: white;
 }
 
 nav .signup-box li a::after {
@@ -126,6 +126,5 @@ nav .signup-box li a::after {
     width: 0;                    
     background-color: #0a080200;    
     transition: width 0.35s ease; 
-    color: white;
 }
 
