@@ -105,12 +105,16 @@ nav .navul li a:hover::after {
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 0;
-    padding: 0 5px;
+    padding: 5px 5px;
 }
 
 .Signupli {
     color: black;
     width: 70px;
+}
+
+.Signupli:hover{
+    color: black;
 }
 
 
