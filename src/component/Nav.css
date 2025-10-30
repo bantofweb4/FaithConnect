@@ -105,7 +105,7 @@ nav .navul li a:hover::after {
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 0;
-    padding: 3px 5px;
+    padding: 3px 7px;
 }
 
 .Signupli {
@@ -117,4 +117,13 @@ nav .signup-box li a:hover{
     color: black;
 }
 
-
+nav .signup-box li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;                    
+    height: 2px;
+    width: 0;                    
+    background-color: #ffb62500;    
+    transition: width 0s ease; 
+}
