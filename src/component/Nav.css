@@ -111,6 +111,7 @@ nav .navul li a:hover::after {
 
 .Signupli {
     width: 60px;
+    margin-left: -30px;
 }
 
 
