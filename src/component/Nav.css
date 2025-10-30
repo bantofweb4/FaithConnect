@@ -127,3 +127,12 @@ nav .signup-box li a::after {
     background-color: #0a0802;    
     transition: width 0.35s ease; 
 }
+
+nav .signup-box li a {
+    display: inline-block;        
+    position: relative;           
+    color: #000;                  
+    text-decoration: none;
+    transition: color 0.35s ease; 
+    padding-bottom: 2px;          
+}
