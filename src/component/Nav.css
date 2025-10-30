@@ -69,30 +69,26 @@ li a{
     text-decoration: underline;
 }
 
-
-/* target your nav links — change selector if you want broader scope */
 nav .navul li a {
-    display: inline-block;        /* critical for ::after sizing */
-    position: relative;           /* critical for ::after positioning */
-    color: #000;                  /* initial text color */
+    display: inline-block;        
+    position: relative;           
+    color: #000;                  
     text-decoration: none;
-    transition: color 0.35s ease; /* color changes smoothly */
-    padding-bottom: 4px;          /* space for underline */
+    transition: color 0.35s ease; 
+    padding-bottom: 4px;          
 }
 
-/* the underline */
 nav .navul li a::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;                    /* sits on the baseline area */
+    bottom: 0;                    
     height: 2px;
-    width: 0;                     /* start hidden */
-    background-color: #FFB825;    /* underline color */
-    transition: width 0.35s ease; /* underline animation in seconds */
+    width: 0;                    
+    background-color: #FFB825;    
+    transition: width 0.35s ease; 
 }
 
-/* hover state: change text color and grow underline */
 nav .navul li a:hover {
   color: #FFB825;
 }
