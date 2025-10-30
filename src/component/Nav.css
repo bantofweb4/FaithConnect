@@ -97,7 +97,12 @@ nav .navul li a:hover::after {
   width: 100%;
 }
 
+.signup-box{
+    width: 60px;
+}
+
 .Signupli {
+    width: 60px;
     background-color: #FFB825;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -106,8 +111,8 @@ nav .navul li a:hover::after {
     height: 30px;
     width: 60px;
     margin: 0 20px;
-    padding: 0 5px;
-    width: 60px;
+    padding: 0 20px;
+
 }
 
 
