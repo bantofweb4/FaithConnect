@@ -23,6 +23,8 @@ nav{
     top: 0;
 }
 
+
+
 .Logo{
     width: 100px;
 }
@@ -34,13 +36,49 @@ nav{
     margin-left: 190px;
 } 
 
+.navul li a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navul li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -3px;
+    background-color: #FFB825;
+    transition: width 0.3s ease;
+}
+
+.navul li a:hover {
+    color: #FFB825;
+}
+
+
 li{
     list-style: none;
 }
+
 li a{
     text-decoration: none;
     color: black;
     font-family: 'Outfit';
+    transition: width 0.3s ease;
+}
+
+
+
+
+.navli:hover {
+    color: #FFB825;
+}
+
+.navli:hover::after {
+    width: 100%;
 }
 
 .signup{
