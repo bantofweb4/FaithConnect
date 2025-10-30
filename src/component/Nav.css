@@ -99,18 +99,18 @@ nav .navul li a:hover::after {
 
 .signup-box{
     width: 60px;
-}
-
-.Signupli {
+    height: 30px;
     background-color: #FFB825;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 0;
-    height: 30px;
-    width: 60px;
-    margin: 0 20px;
     padding: 0 5px;
+}
+
+.Signupli {
+    color: black;
+    width: 60px;
 }
 
 
