@@ -11,7 +11,7 @@ function Nav() {
                 <li className="" ><Link to="/bookspage">Books</Link></li>
                 <li className="" ><Link to="/Aboutpage">About</Link></li>
                 <div className="signup-box">
-                    <li className="underline" ><Link to="/mainsignup">Sign Up</Link></li>
+                    <li className="Signupli" ><Link to="/mainsignup">Sign Up</Link></li>
                 </div>
             </ul>
         </nav>

@@ -104,9 +104,13 @@ nav .navul li a:hover::after {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 0;
     height: 30px;
-    width: 80px;
+    width: 60px;
     margin: 0 20px;
     padding: 0 20px;
+}
+
+.Signupli {
+    width: 60px;
 }
 
 
