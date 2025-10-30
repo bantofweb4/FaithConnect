@@ -24,7 +24,6 @@ nav{
 }
 
 
-
 .Logo{
     width: 100px;
 }
@@ -35,28 +34,6 @@ nav{
     margin-top: 30px;
     margin-left: 190px;
 } 
-
-.navul li a {
-    position: relative;
-    color: black;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.navul li a::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    left: 0;
-    bottom: -3px;
-    background-color: #FFB825;
-    transition: width 0.3s ease;
-}
-
-.navul li a:hover {
-    color: #FFB825;
-}
 
 
 li{
@@ -69,9 +46,6 @@ li a{
     font-family: 'Outfit';
     transition: width 0.3s ease;
 }
-
-
-
 
 .navli:hover {
     color: #FFB825;
@@ -94,4 +68,37 @@ li a{
     padding: 4px 10px;
     text-decoration: underline;
 }
+
+
+/* target your nav links — change selector if you want broader scope */
+nav .navul li a {
+    display: inline-block;        /* critical for ::after sizing */
+    position: relative;           /* critical for ::after positioning */
+    color: #000;                  /* initial text color */
+    text-decoration: none;
+    transition: color 0.35s ease; /* color changes smoothly */
+    padding-bottom: 4px;          /* space for underline */
+}
+
+/* the underline */
+nav .navul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;                    /* sits on the baseline area */
+    height: 2px;
+    width: 0;                     /* start hidden */
+    background-color: #FFB825;    /* underline color */
+    transition: width 0.35s ease; /* underline animation in seconds */
+}
+
+/* hover state: change text color and grow underline */
+nav .navul li a:hover {
+  color: #FFB825;
+}
+
+nav .navul li a:hover::after {
+  width: 100%;
+}
+
 
