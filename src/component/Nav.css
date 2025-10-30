@@ -97,4 +97,14 @@ nav .navul li a:hover::after {
   width: 100%;
 }
 
+/* Sign Up link */
+nav .bg-\[\#FFB825\] a::after {
+  display: none;
+}
+
+nav .bg-\[\#FFB825\] a:hover {
+  color: black; 
+}
+
+
 
