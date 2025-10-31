@@ -5,7 +5,7 @@ function About() {
         <>
             <div class="about">
               <div className="about22">
-                  <h1 className="about2">About Us</h1>
+                  <span className="about2">About Us</span>
                   <h3 className="abouth3">At faith connect you grow and <br /> connect with fellow <br/>belivers.</h3>
               </div>
               <div>
