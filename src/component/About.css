@@ -18,6 +18,8 @@ body{
     padding: 0px 150px;
     margin-bottom: 50px;
     margin-top: 50px;
+    align-items: center;   
+    justify-items: center; 
 }
 
 .about2{
