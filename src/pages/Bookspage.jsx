@@ -8,16 +8,16 @@ import Bookstypes from "../component/Bookstypes";
 
 function Bookspage() {
     return(
-        <div className="">
-            <div>
+        <body className ="mx-[10px] font-outfit">
+            <div id="background" className="w-full h-screen bg-no-repeat bg-center bg-cover z-0" >
                 <Nav />
             </div>
             <Books />
             <Ebooks />
             <Bookstype />
             <Bookstypes />
-            <Footer />
-        </div>
+            <Footer />   
+        </body>
     ); 
 }
 
