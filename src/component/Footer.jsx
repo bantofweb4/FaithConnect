@@ -5,7 +5,7 @@ function Footer() {
         <>
             <div className="footer">
                 <div className="">
-                  <h1 className="text-2xl font-semibold">QUICK LINKS</h1>
+                  <span className="quicklink">QUICK LINKS</span>
                     <ul className="links">
                         <li className="footer-li"><a href="">Podcast</a></li>
                         <li className="footer-li"><a href="">Books</a></li>
