@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 !important;
+}
+
+.navbar02 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: #fff;
+}
+
+.logo02 img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* underline animation */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FFB825;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FFB825;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* active link */
+.active {
+  color: #FFB825;
+}
+
+.active::after {
+  width: 100%;
+}
+
+/* sign up button style */
+.signup-box02 {
+  background-color: #FFB825;
+  border-radius: 15px 15px 0 15px;
+  padding: 5px 15px;
+}
+
+.signup-box02 a {
+  color: black;
+}
+
+.signup-box02 a:hover::after {
+  width: 0; /* disable hover underline */
+}
