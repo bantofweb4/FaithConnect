@@ -10,6 +10,7 @@ function Bookspage() {
     return(
         <>
             <Nav />
+            <Books />
             <Ebooks />
             <Bookstype />
             <Bookstypes />

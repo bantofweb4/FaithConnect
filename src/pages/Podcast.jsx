@@ -10,7 +10,6 @@ import Pods from "../component/Pods";
 function Podcast() {
     return(
         <>
-           
             <Nav />
             <Podimg />
             <Searchbar />
