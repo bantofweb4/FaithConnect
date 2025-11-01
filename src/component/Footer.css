@@ -45,6 +45,7 @@ body{
 }
 
 .quicklink{
+    font-size: 18px;
     font-weight: 600;
-    margin-left: -50px;
+    margin-left: 0px;
 }
